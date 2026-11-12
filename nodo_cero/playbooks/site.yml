@@ -1,0 +1,9 @@
+---
+# Playbook principal de Nodo Cero.
+# Añadir los roles cuando estén implementados y probar primero en el laboratorio.
+
+- name: Preparar infraestructura de Nodo Cero
+  hosts: all
+  become: true
+  gather_facts: true
+  roles: []
